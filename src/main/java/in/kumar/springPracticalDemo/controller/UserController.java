@@ -44,8 +44,8 @@ public class UserController {
 
     }
 
-    @GetMapping("/token")
-    public CsrfToken getToken(CsrfToken csrfToken){
-        return csrfToken;
-    }
+//    @GetMapping("/token")
+//    public CsrfToken getToken(CsrfToken csrfToken){
+//        return csrfToken;
+//    }
 }
